@@ -5505,8 +5505,8 @@ if text == ("تحديث السورس") and DevFeuon(msg) then
 send(msg.chat_id_,msg.id_,'☑┇تم التحديث')
 os.execute('rm -rf Feuon.lua')
 os.execute('rm -rf run.lua')
-os.execute('wget https://raw.githubusercontent.com/sourceFeuon/Feuon/master/Feuon.lua')
-os.execute('wget https://raw.githubusercontent.com/sourceFeuon/Feuon/master/run.lua')
+os.execute('wget https://raw.githubusercontent.com/Feuon/Feuon/master/Feuon.lua')
+os.execute('wget https://raw.githubusercontent.com/Feuon/Feuon/master/run.lua')
 dofile('Feuon.lua')  
 return false
 end
@@ -6535,8 +6535,8 @@ if text == "تحديث السورس 📥" then
 send(msg.chat_id_,msg.id_,'☑┇تم التحديث')
 os.execute('rm -rf Feuon.lua')
 os.execute('rm -rf run.lua')
-os.execute('wget https://raw.githubusercontent.com/sourceFeuon/Feuon/master/Feuon.lua')
-os.execute('wget https://raw.githubusercontent.com/sourceFeuon/Feuon/master/run.lua')
+os.execute('wget https://raw.githubusercontent.com/Feuon/Feuon/master/Feuon.lua')
+os.execute('wget https://raw.githubusercontent.com/Feuon/Feuon/master/run.lua')
 dofile('Feuon.lua')  
 return false
 end
