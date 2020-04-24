@@ -52,7 +52,7 @@ RunFeuon:write([[
 cd $HOME/Feuon
 token="]]..database:get(Server_Feuon.."Token_Feuon")..[["
 rm -fr Feuon.lua
-wget "https://raw.githubusercontent.com/sourceFeuon/Feuon/master/Feuon.lua"
+wget "https://raw.githubusercontent.com/Feuon/Feuon/master/Feuon.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./Feuon.lua -p PROFILE --bot=$token
