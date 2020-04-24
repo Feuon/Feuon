@@ -71,7 +71,7 @@ RunFeuona:write([[
 cd $HOME/Feuona
 token="]]..database:get(Server_Feuona.."Token_Feuona")..[["
 rm -fr Feuona.lua
-wget "https://raw.githubusercontent.com/Sniepr/Feuona/master/Feuona.lua"
+wget "https://raw.githubusercontent.com/Feuon/Feuona/master/Feuona.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./Feuona.lua -p PROFILE --bot=$token
