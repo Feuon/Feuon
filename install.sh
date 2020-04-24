@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/Feuona
+cd $HOME/Feuon
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Feuona
+chmod +x Feuon
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr Feuona.lua
+rm -fr Feuon.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/FeuonaAb/Feuona/master/Feuona.lua"
+wget "https://raw.githubusercontent.com/Feuon/Feuon/master/Feuon.lua"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd Feuona
+cd Feuon
 rm -rf luarocks*
 lua start.lua
 
